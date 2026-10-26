@@ -7,7 +7,7 @@
 [![Pipeline Status](https://img.shields.io/badge/ETL%20Verification-Passed%20100%25-brightgreen.svg)]()
 [![License](https://img.shields.io/badge/License-MIT-lightgrey.svg)]()
 
-> **Practical Experiment 2**: Design and implementation of a Python-based data pipeline that extracts uncleaned data from a CSV source, transforms/cleans it, and loads it into a PostgreSQL relational database with automated logging and visual analytics.
+> A production-ready automated ETL data pipeline engineered in Python, extracting semi-structured CSV data, executing automated cleaning and statistical imputation via Pandas, and loading into PostgreSQL through SQLAlchemy connection pooling with full observability.
 
 ---
 
@@ -19,7 +19,7 @@
 - [ETL Stage Details](#-etl-stage-details)
 - [Data Cleaning & Transformation Metrics](#-data-cleaning--transformation-metrics)
 - [Analytical Visualizations (300 DPI)](#-analytical-visualizations-300-dpi)
-- [Reports & Documentation](#-reports--documentation)
+- [Engineering Documentation](#-engineering-documentation)
 
 ---
 
@@ -67,8 +67,8 @@ Build_Data_Pipeline_PostgreSQL/
 ├── main.py                          # Interactive CLI & automated pipeline driver
 ├── visualize_pipeline.py           # 300 DPI visual analytics & audit charts
 ├── requirements.txt                 # Project dependencies
-├── EXPERIMENT_2_REPORT.md           # 15-page comprehensive academic manual
-├── OUTPUT_REPORT_SUBMISSION.md      # Printable 1-2 page evaluator report
+├── TECHNICAL_SPECIFICATION.md       # Comprehensive pipeline architecture & technical specification
+├── BENCHMARKS_AND_VERIFICATION.md   # Pipeline audit report & execution logs
 ├── data/
 │   ├── raw_employees_source.csv     # Raw input CSV with anomalies
 │   └── cleaned_employees_output.csv # Transformed Pandas output CSV
@@ -139,6 +139,7 @@ python3 visualize_pipeline.py
 
 ---
 
-## 📑 Reports & Documentation
-- **Full Academic Lab Manual**: [`EXPERIMENT_2_REPORT.md`](EXPERIMENT_2_REPORT.md) — Theory, Architecture, Flowcharts, Step-by-Step Code, and 10 Viva Voce Q&As.
-- **Concise Evaluator Submission (1-2 Pages)**: [`OUTPUT_REPORT_SUBMISSION.md`](OUTPUT_REPORT_SUBMISSION.md) — Executive summary tailored for viva demonstration.
+## 📑 Engineering Documentation
+- **Pipeline Architecture & Technical Specification**: [`TECHNICAL_SPECIFICATION.md`](TECHNICAL_SPECIFICATION.md) — Detailed engineering document covering ETL lifecycle, data hygiene algorithms, and database connection pooling.
+- **Production Benchmarks & Verification**: [`BENCHMARKS_AND_VERIFICATION.md`](BENCHMARKS_AND_VERIFICATION.md) — Execution logs, row-count audit parity, and pipeline performance benchmarks.
+

@@ -1,5 +1,5 @@
 """
-Interactive Command Line Interface (CLI) for Task 2: PostgreSQL ETL Data Pipeline.
+Interactive Command Line Interface (CLI) for PostgreSQL ETL Data Pipeline.
 Allows interactive execution of ETL steps, raw vs. clean comparison,
 database querying, and visual analytics generation.
 """
@@ -64,7 +64,7 @@ def show_analytics():
 def main():
     clear_screen()
     print("=" * 75)
-    print("   TASK 2: BUILD DATA PIPELINE WITH SQL / POSTGRESQL (ETL)")
+    print("   AUTOMATED DATA PIPELINE WITH SQL / POSTGRESQL (ETL)")
     print("   Extract (CSV) -> Transform (Pandas) -> Load (SQLAlchemy/PostgreSQL)")
     print("=" * 75)
 

@@ -1,5 +1,5 @@
 """
-Visualizer Module for Task 2 ETL Pipeline.
+Visualizer Module for Automated ETL Pipeline.
 Extracts loaded data directly from PostgreSQL and generates publication-quality
 visual analytics charts illustrating data quality improvements and domain insights.
 """

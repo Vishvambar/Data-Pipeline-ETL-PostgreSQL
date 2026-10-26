@@ -1,4 +1,4 @@
-# Dependencies for Task 2: Build Data Pipeline with PostgreSQL
+# Dependencies: Automated Python & PostgreSQL ETL Data Pipeline
 psycopg2-binary>=2.9.9
 pandas>=2.0.0
 sqlalchemy>=2.0.0

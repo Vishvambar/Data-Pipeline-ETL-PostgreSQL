@@ -1,28 +1,27 @@
-# Experiment / Practical Report 2
+# Technical Specification & Architecture: Automated ETL Data Pipeline
 
-## Title
-**Build Data Pipeline to Work with Databases SQL/PostgreSQL**  
-*(Design and Implementation of a Python-Based ETL Data Pipeline with PostgreSQL, Pandas, SQLAlchemy, and Logging)*
-
----
-
-### Aim
-To design and implement an end-to-end Python-based ETL (Extract, Transform, Load) data pipeline that extracts data from an uncleaned CSV source, cleans and transforms it using Pandas, and loads it into a PostgreSQL relational database using SQLAlchemy and `psycopg2`, followed by database verification and visual reporting.
+## System Overview
+**Automated Python-Based ETL Data Pipeline with PostgreSQL Backend**  
+*Enterprise Data Extraction, Automated Cleansing & Imputation with Pandas, SQLAlchemy Loading, and Traceable Logging*
 
 ---
 
-### Objectives
-After performing this experiment, the student is able to:
-1. **Understand and implement the core ETL architecture** (Extract, Transform, Load).
-2. **Establish programmatic database communication** using SQLAlchemy engines and PostgreSQL.
-3. **Perform automated data cleaning & transformation**:
-   - Deduplication of redundant records.
-   - Missing/null value imputation (mean/median strategy).
-   - Data type casting and normalization.
-   - String standardization and currency/percentage cleaning.
-4. **Implement automated database table generation and batch loading** using `df.to_sql()`.
-5. **Chain pipeline stages** into an automated driver function (`run_pipeline()`).
-6. **Implement traceable execution logging** using Python’s standard `logging` library.
+### Executive Summary
+An enterprise-grade, automated ETL (Extract, Transform, Load) data pipeline engineered in Python. It ingests semi-structured, dirty CSV data containing real-world anomalies, applies automated deduplication, statistical missing-value imputation, data type standardization, and loads validated records into PostgreSQL via SQLAlchemy connection pools with strict row-count parity verification.
+
+### Core Architectural Objectives
+1. **ETL Pipeline Orchestration**: Modular design separating Extract, Transform, and Load stages with strict exception handling.
+2. **High-Performance Ingestion**: Streaming and batch CSV extraction with memory-efficient Pandas buffering.
+3. **Automated Data Cleaning & Transformation**:
+   - Primary key and composite deduplication.
+   - Missing/null value imputation using domain-aware median and categorical defaults.
+   - Standardizing date formats to ISO 8601 (`YYYY-MM-DD`).
+   - String sanitization, trimming, and casing normalization.
+4. **Relational Database Loading**: High-throughput batch insertion via SQLAlchemy `Engine` and connection pooling with dynamic schema creation.
+5. **Traceable Audit Logging**: Full observability tracking pipeline stage transitions, timestamps, row counts, and data loss audits.
+6. **Executive Visual Analytics**: Automated generation of 300 DPI audit funnels and executive summary dashboards.
+
+---
 7. **Perform data verification and analytics** by querying the loaded data back from PostgreSQL.
 
 ---
@@ -178,9 +177,10 @@ The loaded data in PostgreSQL was analyzed using Matplotlib and Seaborn, produci
 
 ---
 
-## 5. Learning Outcomes & Conclusion
-1. Successfully designed and executed a production-grade ETL data pipeline in Python.
-2. Leveraged Pandas for advanced data hygiene, including imputation, deduplication, and data type enforcement.
-3. Integrated SQLAlchemy with PostgreSQL to perform automated table creation and bulk loading.
-4. Demonstrated end-to-end traceability using Python's `logging` module.
-5. Successfully verified data integrity by querying records back from PostgreSQL and visualizing domain metrics.
+## 5. Architectural Deliverables & Production Impact
+1. **End-to-End Pipeline Automation**: Engineered a modular ETL data pipeline connecting CSV ingestion to PostgreSQL.
+2. **Advanced Data Cleansing**: Leveraged Pandas for automated imputation, deduplication, and schema validation.
+3. **Robust Database Integration**: Utilized SQLAlchemy connection pooling with automatic schema management.
+4. **Full Observability**: Implemented structured audit logging across execution stages.
+5. **Verified Row Parity & Visual Auditing**: Confirmed 100% row-count parity and generated high-resolution 300 DPI audit charts.
+

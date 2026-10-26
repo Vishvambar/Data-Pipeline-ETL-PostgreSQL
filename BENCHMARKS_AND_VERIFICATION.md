@@ -1,8 +1,10 @@
-# PRACTICAL OUTPUT REPORT (1-2 PAGES)
-### Course: Data Visualisation | Experiment / Task 2
-**Title:** Build Data Pipeline to Work with Databases SQL/PostgreSQL (ETL)  
-**Aim:** Design and implement a Python-based ETL pipeline that extracts raw data from CSV, cleans/transforms it via Pandas, loads it into PostgreSQL using SQLAlchemy, and verifies the stored records.  
-**Tech Stack:** Python 3.14 | PostgreSQL 18 | `pandas`, `sqlalchemy`, `psycopg2-binary`, `logging`, `tabulate`
+# Production Verification & Pipeline Audit Report
+## Automated Python & PostgreSQL ETL Data Pipeline
+
+- **Pipeline Type**: Automated Batch ETL (Extract, Transform, Load)
+- **Database Engine**: PostgreSQL 18 via SQLAlchemy connection pooling
+- **Data Manipulation**: Pandas (Statistical Imputation, Deduplication, Formatting)
+- **Observability**: Structured Logging with timestamped stage tracing
 
 ---
 
