@@ -1,0 +1,24 @@
+student_id,name,age,email,grade,attendance,enrollment_date,fee_paid
+101.0,  Aarav Sharma  ,20.0,Aarav.Sharma@College.Edu,A,88.5%,2023-07-15,"₹25,000"
+102.0,Priya Nair,21.0,priya.nair@college.edu,A+,92.0%,2023-07-16,25000
+103.0,Rohan Mehta,,rohan.mehta@college.edu,B,74.0%,2023-07-18,25000
+104.0,kavya iyer,22.0,KAVYA.IYER@COLLEGE.EDU,A,,2023-07-20,"₹20,000"
+105.0,Aditya Verma,19.0,aditya.verma@college.edu,C+,65.5%,2023-08-01,18000
+101.0,  Aarav Sharma  ,20.0,Aarav.Sharma@College.Edu,A,88.5%,2023-07-15,"₹25,000"
+106.0,Vikram Rao,23.0,vikram.rao@college.edu,A+,95.0%,2023-08-05,25000
+107.0,Ananya Patel,20.0,ananya.patel@college.edu,A,89.0%,2023-08-10,25000
+108.0,Siddharth Joshi,,siddharth.j@college.edu,,58.0%,2023-08-12,15000
+109.0,Sneha Kulkarni,21.0,sneha.k@college.edu,B+,82.5%,2023-08-15,22000
+110.0,Rahul Deshmukh,20.0,rahul.d@college.edu,B,78.0%,2023-08-18,20000
+106.0,Vikram Rao,23.0,vikram.rao@college.edu,A+,95.0%,2023-08-05,25000
+111.0,Neha Gupta,22.0,neha.gupta@college.edu,A,91.0%,2023-08-20,25000
+112.0,karan singhania,21.0,KARAN.S@COLLEGE.EDU,B+,80.0%,2023-08-22,22000
+113.0,Tanvi Bhatia,20.0,tanvi.b@college.edu,A,87.5%,2023-08-25,
+114.0,Sunita Menon,,sunita.m@college.edu,C,52.0%,2023-09-01,12000
+115.0,Deepak Chopra,22.0,deepak.c@college.edu,B,,2023-09-02,20000
+116.0,Pooja Reddy,19.0,pooja.reddy@college.edu,A+,96.5%,2023-09-05,25000
+117.0,Arjun Kapoor,23.0,arjun.k@college.edu,B+,79.0%,2023-09-08,22000
+118.0,Meera Saxena,20.0,meera.s@college.edu,A,89.5%,2023-09-10,25000
+119.0,Varun Malhotra,21.0,varun.m@college.edu,C+,63.0%,2023-09-12,16000
+120.0,Divya Sen,20.0,divya.sen@college.edu,A+,94.0%,2023-09-15,25000
+,Ghost Record,25.0,ghost@college.edu,F,10.0%,2023-09-20,0
